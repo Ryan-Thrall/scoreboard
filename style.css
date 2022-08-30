@@ -1,0 +1,61 @@
+:root {
+  --pageColor: rgb(186, 186, 186);
+}
+
+/* SECTION Bootstrap Debugger */
+body.debug .container,
+body.debug .container-fluid {
+  outline: 2px double blue;
+  outline-offset: -2px;
+}
+
+body.debug .row {
+  outline: 2px dashed red;
+  outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+  outline: 2px dotted forestgreen;
+  outline-offset: -3px;
+}
+
+.score-box {
+  border: 2px solid white;
+  text-align: center;
+}
+
+/* SECTION header Styling */
+header {
+  min-height: 15vh;
+}
+
+.navrow {
+  width: 100vw;
+}
+
+.reset-button {
+  width: 10vw;
+  height: 5vh;
+  background-color: rgba(255, 0, 0, .75);
+}
+
+/* SECTION Score Board Styling */
+.score-board-base {
+  background-color: rgb(28, 28, 28);
+}
+
+.team-border {
+  border: 2px solid rgb(239, 222, 34);
+}
+
+.right-post {
+  background-color: rgb(28, 28, 28);
+  width: 1vw;
+  height: 40vh;
+}
+
+.left-post {
+  background-color: rgb(28, 28, 28);
+  width: 1vw;
+  height: 40vh;
+}
